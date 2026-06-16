@@ -1080,23 +1080,7 @@ MOBILE
 
 @media(max-width:700px){
 
-.header{
-    flex-direction:row;
-}
 
-
-/* logo fica esquerda */
-.logo{
-    order:1;
-}
-
-
-/* hamburger vai direita */
-.hamburger{
-    order:2;
-}
-
-}
 
 .header{
 
@@ -1208,7 +1192,7 @@ MOBILE
 
 .tasks{
 
-    display:none;
+    display:flex;
 
     flex-direction:column;
 
@@ -1757,38 +1741,34 @@ MOBILE
 
 .navbar{
 
-
     position:absolute;
 
-    top:65px;
+    top:90px;
 
     left:0;
 
-
     width:100%;
 
-
     background:#02135c;
-
 
     flex-direction:column;
 
     align-items:center;
 
+    gap:25px;
 
-    padding:25px 0;
+    padding:30px 0;
 
 
-    transform:translateY(-120%);
+    transform:translateY(-150%);
 
+    transition:.3s ease;
 
     opacity:0;
 
     visibility:hidden;
 
-
-    transition:.3s;
-
+    z-index:999;
 
 }
 
