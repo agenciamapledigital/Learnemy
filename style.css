@@ -43,7 +43,7 @@ body{
 
 /* LOGO */
 .logo img{
-    width:125px;
+    width:175px;
     margin-top: 25px;
     margin-left: 30px;
     padding: 25px;
@@ -260,6 +260,7 @@ body{
 /*right-section*/
 .right-section{
     padding-right: 65px;
+    margin-bottom: 0px;
 }
 #tag{
     width: 205px;
@@ -435,6 +436,8 @@ body{
     width:100%;
     min-height:8.2vh;
     background:#02135c;
+    
+    
 }
 
 /* CAIXA BRANCA */
@@ -1134,7 +1137,7 @@ MOBILE
 
 .logo img{
 
-    width:95px;
+    width:125px;
 
     height:auto;
 
@@ -1171,7 +1174,7 @@ MOBILE
 
 
 .primeira-seção{
-
+    
     padding:35px 20px;
 
 }
