@@ -1208,7 +1208,7 @@ MOBILE
 
 .tasks{
 
-    display:flex;
+    display:none;
 
     flex-direction:column;
 
