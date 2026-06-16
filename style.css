@@ -1080,7 +1080,25 @@ MOBILE
 
 @media(max-width:700px){
 
+@media(max-width:700px){
 
+.header{
+    flex-direction:row;
+}
+
+
+/* logo fica esquerda */
+.logo{
+    order:1;
+}
+
+
+/* hamburger vai direita */
+.hamburger{
+    order:2;
+}
+
+}
 
 .header{
 
