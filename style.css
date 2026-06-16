@@ -24,6 +24,9 @@ body{
 /*header section*/
 /* NAVBAR */
 .header{
+    position: fixed;
+    top: 0;
+    z-index: 1000;
     width:100%;
     height:90px;
 
@@ -110,6 +113,7 @@ body{
 
 /*left-section*/
 .primeira-seção{
+    margin-top: 65px;
     display:flex;
     justify-content:space-around;
     padding-top: 45px;
@@ -120,11 +124,12 @@ body{
     overflow:hidden;
 }
 .left-section{
-    margin-top: 25px;
+    margin-top: 45px;
     margin-left: -125px;
 
 }
 .pré-p{
+    margin-left: 5px;
     color: #FBCD18;
     font-size: 18px;
     font-weight: bold;
@@ -201,7 +206,7 @@ body{
 .whatsapp-icon{
     font-size:24px;
 }
-.class{
+.botao{
     background-color: #02135c;
     color: #ffffff;
     width: 350px;
@@ -210,6 +215,12 @@ body{
     border: solid 1px #D9D9D9;
     cursor: pointer;
     font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px;
+}
+.botao:hover {
+    background: #004ccc;
 }
 
 .card{
@@ -505,7 +516,7 @@ body{
     background: #FBCD18;
     color:#000000;
 
-    padding:16px 32px;
+    padding:16px 28px;
 
     border-radius:5px;
 
@@ -523,6 +534,7 @@ body{
     margin-top: 8px;
 }
 .zapzap{
+    margin-top: 40px;
     display:inline-flex;
     align-items:center;
     justify-content:center;
@@ -530,10 +542,10 @@ body{
 
     background: #FBCD18;
     color:#000000;
-     padding:16px 32px;
+    padding:16px 32px;
     border-radius:5px;
     text-decoration:none;
-    font-size:32px;
+    font-size:18px;
     font-weight:300;
     cursor:pointer;
        transition:0.3s ease;
